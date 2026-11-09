@@ -1,0 +1,3 @@
+direction,total_events,va_available_n,va_available_pct,va_missing_n,va_missing_pct,missing_reason,missing_reason_n,missing_reason_pct_of_missing
+UP,162,140,86.4,22,13.6,reference_region_outside_historical_range,22,100.0
+DOWN,162,160,98.8,2,1.2,reference_region_outside_historical_range,2,100.0

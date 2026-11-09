@@ -1,0 +1,9 @@
+# Validated with CPython 3.13.5.
+# Requires requirements.txt; from 06 Code, install it first, then these analysis requirements:
+#   python -m pip install -r requirements.txt
+#   python -m pip install -r requirements-analysis.txt
+lifelines==0.30.3
+statsmodels==0.14.5
+scipy==1.14.1
+numpy==2.2.6
+matplotlib==3.9.4

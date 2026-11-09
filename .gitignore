@@ -1,0 +1,29 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+venv*/
+**/.venv*/
+**/venv*/
+
+# Local environment files and macOS metadata
+.env*
+**/.env*
+.DS_Store
+
+# Raw and processed market data
+05 Data/raw/
+05 Data/processed/
+05 Data/events/
+*.zip
+*.part
+*.parquet
+*.feather
+*.h5
+*.hdf5
+outputs/tables/events*.csv
+outputs/tables/consolidation_*.csv
