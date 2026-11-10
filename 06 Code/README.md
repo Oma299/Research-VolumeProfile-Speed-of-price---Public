@@ -44,7 +44,7 @@ python3 run_block4.py
 
 15m Parquet записывается в `05 Data/processed/` и исключён из Git. Pilot event/box CSV находятся в `outputs/tables/`, диагностика и PNG-графики — в `reports/block4/`. Volume Profile, Volume Ahead и последующие outcomes этим runner-ом не рассчитываются.
 
-Следующие этапы: ручная проверка событий и графиков, затем отдельный статистический анализ.
+Ручная проверка, проверки утечки и валидации, описательный анализ, основная Cox-модель и вторичная R60 OLS-модель выполнены. Результаты описаны в `reports/day3/`; сводные коэффициенты и описательные таблицы находятся в `07 Results/tables/`.
 
 ## Manual Validation (Day 2, Block 4)
 
@@ -70,7 +70,9 @@ python3 manual_validation.py --finalize
 
 ## Следующий этап
 
-Day 2 Block 4 manual validation завершён. Следующая задача — Day 3 Block 1: leakage и validation; она ещё не начата.
+Day 2 Block 4 manual validation и Day 3 Block 1 (leakage/validation) завершены. Также выполнены описательный анализ, Cox-модель времени до цели с правым цензурированием и вторичная R60 OLS-регрессия. Отчёты и таблицы результатов находятся в `reports/day3/` и `07 Results/tables/`.
+
+Собраны 211 ZIP-архивов aggTrades с контрольными суммами; анализ aggTrades ещё не проводился. Это следующий аналитический этап.
 
 ## Volume Profile и Volume Ahead
 
